@@ -4,8 +4,8 @@ export default function FaviconTheme() {
   const [darkTheme, setDarkTheme] = useState(false);
   const faviconRef = useRef(null);
 
-  const lightFaviconPath = "/public/logo-light.png";
-  const darkFaviconPath = "/public/logo-dark.png";
+  const lightFaviconPath = "/logo-light.png";
+  const darkFaviconPath = "/logo-dark.png";
 
   useEffect(() => {
     const updateFavicon = () => {
