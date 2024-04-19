@@ -1,0 +1,55 @@
+.listItem {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.textWrapper {
+  width: 720px;
+}
+
+.projName {
+  /* Typography */
+  font-weight: 400;
+  font-style: italic;
+  font-size: 28px;
+  text-align: start;
+}
+
+.projStack {
+  /* Box model */
+  margin-bottom: 32px;
+
+  /* Typography */
+  font-weight: 400;
+  text-align: start;
+  font-style: italic;
+}
+
+.projDescr {
+  /* Box model */
+  margin-bottom: 32px;
+
+  /* Typography */
+  text-align: justify;
+}
+
+.linksWrapper {
+  /* Box model */
+  display: flex;
+  gap: 40px;
+
+  /* Typography */
+  font-family: "Gilda Display", serif;
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: 0.05em;
+}
+
+.projLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
