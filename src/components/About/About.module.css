@@ -1,0 +1,16 @@
+.intro {
+  text-transform: capitalize;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.537);
+  opacity: 0;
+  animation: fadeInOut 2.1s ease-in-out infinite alternate;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,24 @@
+.title {
+  margin-bottom: 32px;
+
+  /* Typography */
+  font-size: 28px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.experience {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.listItemTitle {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.dates {
+  color: rgba(0, 0, 0, 0.537);
+}

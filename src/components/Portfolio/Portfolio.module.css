@@ -7,6 +7,7 @@
   /* Visual */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
 }
 
 .listItem:nth-child(even) {
@@ -15,6 +16,9 @@
 
 .listItem:nth-child(odd) {
   padding-right: 60px;
+}
+.listItem:hover {
+  transform: scale(1.02);
 }
 
 .textWrapper {

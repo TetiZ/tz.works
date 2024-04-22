@@ -16,9 +16,13 @@ export default function Navigation() {
         />
       </Link>
       {location.pathname !== "/" ? (
-        <NavLink to="/">Portfolio</NavLink>
+        <NavLink className={css.navlink} to="/">
+          Portfolio
+        </NavLink>
       ) : (
-        <NavLink to="/about">About</NavLink>
+        <NavLink className={css.navlink} to="/about">
+          About
+        </NavLink>
       )}
     </nav>
   );
