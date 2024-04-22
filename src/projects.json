@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Phonebook",
+    "img": "../src/img/desktop/phonebook.jpg",
+    "stack": "[React (Hooks, Routers, Redux, Redux Toolkit)]",
+    "description": "A simple Phonebook linked to a Swagger backend API. This App enables users to register and gain personalized access to create, search using filters, edit, or delete contacts.",
+    "role": "Individual project.",
+    "livePage": "https://phonebook-inky-five.vercel.app",
+    "codeRepo": "https://github.com/TetiZ/Phonebook"
+  },
+  {
+    "name": "Energy Flow",
+    "img": "../src/img/desktop/energy-flow.jpg",
+    "stack": "[JavaScript, REST API, HTML5, CSS3. Git, Trello, Vite]",
+    "description": "Fitness and workout website which utilizes a REST API and saves data to local storage, pagination. Users can filter exercises by available muscle groups or search for specific body parts.",
+    "role": "Role: Team Lead",
+    "livePage": "https://tetiz.github.io/energy_flow/",
+    "codeRepo": "https://github.com/TetiZ/energy_flow"
+  },
+  {
+    "name": "Movie Library",
+    "img": "../src/img/desktop/movie-library.jpg",
+    "stack": "[React (Hooks, Routes), REST API]",
+    "description": "An application connected to TMBD that allows viewing movie trends in real-time, with the ability to search for a specific movie, and browse details, ratings, reviews, and cast.",
+    "role": "Individual project.",
+    "livePage": "https://goit-react-hw-05-ruby.vercel.app",
+    "codeRepo": "https://goit-react-hw-05-ruby.vercel.app"
+  },
+  {
+    "name": "Ornam",
+    "img": "../src/img/desktop/ornam.jpg",
+    "stack": "[HTML5, CSS3, Git, Vite, Trello.]",
+    "description": "A website for a vyshyvanka product company featuring adaptive design, animations and a convenient burger menu for seamless navigation.",
+    "role": "Role: Developer (‘Our collection’, Footer)",
+    "livePage": "https://elizabethbil.github.io/project-13/",
+    "codeRepo": "https://github.com/ElizabethBil/project-13"
+  },
+  {
+    "name": "Web Studio",
+    "img": "../src/img/desktop/webstudio.jpg",
+    "stack": "[HTML5, CSS3, Git, Vite]",
+    "description": "WebStudio landing page with adaptive design, animated effects, and a simple burger menu.",
+    "role": "Individual project.",
+    "livePage": "https://tetiz.github.io/Webstudio/",
+    "codeRepo": "https://github.com/TetiZ/Webstudio"
+  }
+]

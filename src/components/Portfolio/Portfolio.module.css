@@ -3,6 +3,18 @@
   gap: 60px;
   align-items: center;
   margin-bottom: 60px;
+
+  /* Visual */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.listItem:nth-child(even) {
+  padding-left: 60px;
+}
+
+.listItem:nth-child(odd) {
+  padding-right: 60px;
 }
 
 .textWrapper {
@@ -39,6 +51,7 @@
   /* Box model */
   display: flex;
   gap: 40px;
+  margin-bottom: 16px;
 
   /* Typography */
   font-family: "Gilda Display", serif;
@@ -52,4 +65,7 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
+}
+
+.img {
 }
