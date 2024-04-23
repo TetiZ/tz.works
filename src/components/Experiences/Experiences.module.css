@@ -22,3 +22,30 @@
 .dates {
   color: rgba(0, 0, 0, 0.537);
 }
+
+/* actual */
+.expWrapper {
+  /* Box model */
+  display: flex;
+}
+
+.partWrapper {
+  width: calc((100% - 60px));
+  text-align: left;
+}
+
+.expList {
+  /* Positioning */
+  position: relative;
+}
+
+.expList::before {
+  content: "";
+  position: absolute;
+  left: -43px;
+  top: -5px;
+  width: 1px;
+  height: calc(100% + 5px);
+  display: block;
+  background: black;
+}

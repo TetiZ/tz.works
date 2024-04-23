@@ -1,6 +1,9 @@
 import About from "../../components/About/About";
 import Experiences from "../../components/Experiences/Experiences";
+
+import experience from "../../experience.json";
 import css from "./AboutPage.module.css";
+
 export default function AboutPage() {
   return (
     <div className={css.aboutWrapper}>
@@ -24,7 +27,7 @@ export default function AboutPage() {
         gives me satisfaction, like when you find the last piece of a puzzle and
         put it in its place.
       </p>
-      <Experiences />
+      <Experiences experience={experience} />
     </div>
   );
 }
