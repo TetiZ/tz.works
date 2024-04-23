@@ -27,10 +27,10 @@
 .expWrapper {
   /* Box model */
   display: flex;
+  gap: 300px;
 }
 
 .partWrapper {
-  width: calc((100% - 60px));
   text-align: left;
 }
 

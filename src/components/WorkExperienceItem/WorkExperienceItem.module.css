@@ -2,8 +2,8 @@
   /* Box model */
   display: flex;
   gap: 8px;
-  align-items: center;
-  padding: 20px;
+  align-items: start;
+  padding: 10px 0 0 0;
 
   /* Positioning */
   position: relative;
@@ -16,25 +16,30 @@
   width: 43px;
   display: block;
   left: -43px;
-  top: 18px;
+  top: 30px;
   background: black;
-}
-
-.expLogo {
-  margin-right: 20px;
-  position: relative;
 }
 
 .logo {
   width: 38px;
   height: 38px;
-  position: absolute;
-  top: 12px;
-  left: 12px;
+  margin-right: 20px;
+}
+
+.expDetails {
+  list-style-type: disc;
+  margin-bottom: 4px;
+  color: rgba(0, 0, 0, 0.537);
+}
+
+.title {
 }
 
 .expLabel {
-  margin-bottom: 10px; /* Верхний отступ */
-  color: rgba(0, 0, 0, 0.537);
+  margin-top: 12px;
+  margin-bottom: 12px;
   cursor: pointer;
+
+  /* Typography */
+  color: rgba(0, 0, 0, 0.537);
 }

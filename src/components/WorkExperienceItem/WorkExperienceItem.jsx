@@ -21,12 +21,11 @@ export default function WorkExperienceItem({
 
   return (
     <li className={css.expListItem}>
-      <div className={css.expLogo}>
-        <img className={css.logo} src={logo} alt="Field of activity logo" />
-      </div>
+      <img className={css.logo} src={logo} alt="Field of activity logo" />
+
       <div className={css.expDescr}>
-        <h3>{position}</h3>
-        <p>{company}</p>
+        <h3 className={css.title}>{position}</h3>
+        <p className={css.company}>{company}</p>
         <p>{dates}</p>
         {!loadMore && details?.length > 0 && (
           <p className={css.expLabel} onClick={showDetails}>
@@ -38,9 +37,11 @@ export default function WorkExperienceItem({
             <p className={css.expLabel} onClick={hideDetails}>
               <MdOutlineArrowDropDown /> Hide details
             </p>
-            <ul className="exp-details">
+            <ul className={css.expDetails}>
               {details.map((detail, index) => (
-                <li key={`${position}-${index}`}>{detail}</li>
+                <li className={css.expDetails} key={`${position}-${index}`}>
+                  {detail}
+                </li>
               ))}
             </ul>
           </>
