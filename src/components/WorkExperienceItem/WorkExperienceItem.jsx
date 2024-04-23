@@ -28,25 +28,22 @@ export default function WorkExperienceItem({
         <h3>{position}</h3>
         <p>{company}</p>
         <p>{dates}</p>
-        {details?.length > 0 && (
-          <>
-            {loadMore ? (
-              <p className={css.expLabel} onClick={hideDetails}>
-                <MdOutlineArrowDropDown /> Hide details
-              </p>
-            ) : (
-              <p className={css.expLabel} onClick={showDetails}>
-                <MdArrowRight /> Position Description
-              </p>
-            )}
-          </>
+        {!loadMore && details?.length > 0 && (
+          <p className={css.expLabel} onClick={showDetails}>
+            <MdArrowRight /> Position Description
+          </p>
         )}
         {loadMore && details?.length > 0 && (
-          <ul className="exp-details">
-            {details.map((detail, index) => (
-              <li key={`${position}-${index}`}>{detail}</li>
-            ))}
-          </ul>
+          <>
+            <p className={css.expLabel} onClick={hideDetails}>
+              <MdOutlineArrowDropDown /> Hide details
+            </p>
+            <ul className="exp-details">
+              {details.map((detail, index) => (
+                <li key={`${position}-${index}`}>{detail}</li>
+              ))}
+            </ul>
+          </>
         )}
       </div>
     </li>
