@@ -1,5 +1,5 @@
 import { Link, NavLink, useLocation } from "react-router-dom";
-import darkLogoImg from "../../img/dark-logo.png";
+import darkLogoImg from "/img/dark-logo.png";
 import css from "./Navigation.module.css";
 
 export default function Navigation() {
