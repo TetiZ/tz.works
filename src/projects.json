@@ -10,7 +10,7 @@
   },
   {
     "name": "Energy Flow",
-    "img": "../src/img/desktop/energy-flow.jpg",
+    "img": "/img/desktop/energy-flow.jpg",
     "stack": "[JavaScript, REST API, HTML5, CSS3. Git, Trello, Vite]",
     "description": "Fitness and workout website which utilizes a REST API and saves data to local storage, pagination. Users can filter exercises by available muscle groups or search for specific body parts.",
     "role": "Role: Team Lead",
@@ -19,7 +19,7 @@
   },
   {
     "name": "Movie Library",
-    "img": "../src/img/desktop/movie-library.jpg",
+    "img": "/img/desktop/movie-library.jpg",
     "stack": "[React (Hooks, Routes), REST API]",
     "description": "An application connected to TMBD that allows viewing movie trends in real-time, with the ability to search for a specific movie, and browse details, ratings, reviews, and cast.",
     "role": "Individual project.",
@@ -28,7 +28,7 @@
   },
   {
     "name": "Ornam",
-    "img": "../src/img/desktop/ornam.jpg",
+    "img": "/img/desktop/ornam.jpg",
     "stack": "[HTML5, CSS3, Git, Vite, Trello.]",
     "description": "A website for a vyshyvanka product company featuring adaptive design, animations and a convenient burger menu for seamless navigation.",
     "role": "Role: Developer (‘Our collection’, Footer)",
@@ -37,7 +37,7 @@
   },
   {
     "name": "Web Studio",
-    "img": "../src/img/desktop/webstudio.jpg",
+    "img": "/img/desktop/webstudio.jpg",
     "stack": "[HTML5, CSS3, Git, Vite]",
     "description": "WebStudio landing page with adaptive design, animated effects, and a simple burger menu.",
     "role": "Individual project.",
