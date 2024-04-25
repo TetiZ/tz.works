@@ -1,7 +1,7 @@
 [
   {
     "name": "Phonebook",
-    "img": "/img/desktop/phonebook.jpg",
+    "img": "./img/desktop/phonebook.jpg",
     "stack": "[React (Hooks, Routers, Redux, Redux Toolkit)]",
     "description": "A simple Phonebook linked to a Swagger backend API. This App enables users to register and gain personalized access to create, search using filters, edit, or delete contacts.",
     "role": "Individual project.",
