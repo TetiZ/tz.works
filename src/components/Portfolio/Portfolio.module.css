@@ -28,7 +28,6 @@
 .projName {
   /* Typography */
   font-weight: 400;
-  font-style: italic;
   font-size: 28px;
   text-align: start;
 }
@@ -40,7 +39,7 @@
   /* Typography */
   font-weight: 400;
   text-align: start;
-  font-style: italic;
+  font-size: 18px;
 }
 
 .projDescr {
@@ -60,7 +59,6 @@
   /* Typography */
   font-family: "Gilda Display", serif;
   font-size: 18px;
-  font-style: italic;
   letter-spacing: 0.05em;
 }
 
@@ -69,7 +67,4 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-}
-
-.img {
 }

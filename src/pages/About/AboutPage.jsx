@@ -27,7 +27,7 @@ export default function AboutPage() {
         gives me satisfaction, like when you find the last piece of a puzzle and
         put it in its place.
       </p>
-      {/* <Experiences experience={experience} /> */}
+      <Experiences experience={experience} />
     </div>
   );
 }

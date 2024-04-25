@@ -1,11 +1,11 @@
 @import url(./fonts.css);
 
 :root {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 18px;
   line-height: 1.5;
-  font-weight: 200;
-  letter-spacing: 0.03em;
+  font-weight: 400;
+  letter-spacing: 0.04em;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -68,7 +68,6 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
 }
 button:focus,
 button:focus-visible {

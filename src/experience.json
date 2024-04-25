@@ -3,20 +3,17 @@
     {
       "institution": "IT School GOIT",
       "degree": "Fullstack developer",
-      "dates": "Jul 2023 - Jun 2024",
-      "logo": "./src/img/desktop/logos/experiences/certificate.png"
+      "dates": "Jul 2023 - Jun 2024"
     },
     {
       "institution": "WSB Merito University",
       "degree": "Master's Degree / Management",
-      "dates": "Oct 2017 - Jul 2019",
-      "logo": "./src/img/desktop/logos/experiences/dyploma.png"
+      "dates": "Oct 2017 - Jul 2019"
     },
     {
       "institution": "Oles Honchar Dnipro National University",
       "degree": "Bachelor's Degree / History",
-      "dates": "Sep 2013 - Jun 2017",
-      "logo": "./src/img/desktop/logos/experiences/dyploma.png"
+      "dates": "Sep 2013 - Jun 2017"
     }
   ],
   "workExperience": [
@@ -24,7 +21,6 @@
       "position": "Area Manager",
       "company": "Amazon",
       "dates": "May 2021 - Present",
-      "logo": "./src/img/desktop/logos/experiences/managament.png",
       "details": [
         "Launching the most advanced Robotics Fulfillment Centre in Poland as an Outbound Area Manager.",
         "Actively coaching team members and playing a hands-on role in the recruitment process for Team Lead positions and critical roles.",
@@ -37,7 +33,6 @@
       "position": "Store Manager",
       "company": "Inditex",
       "dates": "Nov 2020 - Jan 2021",
-      "logo": "./src/img/desktop/logos/experiences/sales.png",
       "details": [
         "Ensuring safe working conditions and proper functioning of the store during government restrictions and store closures (lockdown due to Covid-19).",
         "Managing human resources, supervising and directly leading the recruitment process.",
@@ -49,7 +44,6 @@
       "position": "Deputy Store Manager",
       "company": "Inditex",
       "dates": "Dec 2019 - Nov 2020",
-      "logo": "./src/img/desktop/logos/experiences/sales.png",
       "details": [
         "Planning and controlling the sales budget as well as the labor budget, creating schedules for the entire team.",
         "Working with sales reports and organizing teamwork under pressure and time constraints.",
@@ -58,16 +52,9 @@
       ]
     },
     {
-      "position": "Assistant Store Director",
-      "company": "Inditex",
-      "dates": "Apr 2018 - Nov 2019",
-      "logo": "./src/img/desktop/logos/experiences/sales.png"
-    },
-    {
       "position": "Polish language teacher for non-native speakers",
       "company": "Savoy Polish Center",
       "dates": "Jan 2017 - Jul 2017",
-      "logo": "./src/img/desktop/logos/experiences/teaching.png",
       "details": [
         "Planning and controlling the sales budget as well as the labor budget, creating schedules for the entire team.",
         "Working with sales reports and organizing teamwork under pressure and time constraints.",

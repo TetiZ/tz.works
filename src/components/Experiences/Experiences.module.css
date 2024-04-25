@@ -1,51 +1,25 @@
-.title {
-  margin-bottom: 32px;
-
-  /* Typography */
-  font-size: 28px;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.experience {
-  display: flex;
-  justify-content: space-between;
-  text-align: left;
-}
-
-.listItemTitle {
-  font-size: 20px;
-  font-style: italic;
-  font-weight: 600;
-}
-
-.dates {
-  color: rgba(0, 0, 0, 0.537);
-}
-
-/* actual */
-.expWrapper {
-  /* Box model */
-  display: flex;
-  gap: 300px;
-}
-
-.partWrapper {
-  text-align: left;
-}
-
 .expList {
-  /* Positioning */
-  position: relative;
+  display: flex;
+  gap: 60px;
 }
 
-.expList::before {
-  content: "";
-  position: absolute;
-  left: -43px;
-  top: -5px;
-  width: 1px;
-  height: calc(100% + 5px);
-  display: block;
-  background: black;
+.expListItem {
+  text-align: left;
+
+  /* Visual */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.expTitle {
+  padding: 60px 60px 0 60px;
+  margin-bottom: 44px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.detailExpList {
+  /* Box model */
+  padding: 0 60px 60px 60px;
 }
