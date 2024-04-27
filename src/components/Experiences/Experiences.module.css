@@ -1,6 +1,36 @@
 .expList {
+  margin-bottom: 60px;
   display: flex;
-  gap: 60px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+.detailExpList {
+  /* Box model */
+  padding: 0 60px 60px 60px;
+}
+
+.eduList {
+  max-width: 376px;
+}
+
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.techItem {
+  max-width: 376px;
+  position: absolute;
+  left: 0;
+  top: 580px;
+}
+
+.workList {
+  width: 680px;
+  padding-bottom: 80px;
 }
 
 .expListItem {
@@ -17,9 +47,4 @@
   margin-bottom: 44px;
   font-size: 28px;
   font-weight: 500;
-}
-
-.detailExpList {
-  /* Box model */
-  padding: 0 60px 60px 60px;
 }

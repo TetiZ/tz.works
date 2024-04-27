@@ -1,0 +1,42 @@
+[
+  {
+    "name": "HTML5",
+    "img": "/img/techLogos/html.png",
+    "altText": "HTML5 Logo"
+  },
+  {
+    "name": "CSS3",
+    "img": "/img/techLogos/css.png",
+    "altText": "CSS3 Logo"
+  },
+  {
+    "name": "JavaScript",
+    "img": "/img/techLogos/js.png",
+    "altText": "JavaScript Logo"
+  },
+  {
+    "name": "TypeScript",
+    "img": "/img/techLogos/ts.png",
+    "altText": "TypeScript Logo"
+  },
+  {
+    "name": "React.js",
+    "img": "/img/techLogos/react.png",
+    "altText": "React.js Logo"
+  },
+  {
+    "name": "Redux",
+    "img": "img/techLogos/redux.png",
+    "altText": "React.js Logo"
+  },
+  {
+    "name": "Node.js",
+    "img": "/img/techLogos/nodejs.png",
+    "altText": "Node.js Logo"
+  },
+  {
+    "name": "GitHub",
+    "img": "/img/techLogos/github.png",
+    "altText": "GitHub Logo"
+  }
+]

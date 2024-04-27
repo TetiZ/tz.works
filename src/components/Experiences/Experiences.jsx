@@ -1,28 +1,15 @@
 import css from "./Experiences.module.css";
+import clsx from "clsx";
 import EducationItem from "../EducationItem/EducationItem";
 import WorkExperienceItem from "../WorkExperienceItem/WorkExperienceItem";
-import { useState, useRef, useEffect } from "react";
+import TechStack from "../TechStack/TechStack";
 
-export default function Experiences({ experience }) {
-  const workListRef = useRef();
-  const [showMore, setShowMore] = useState(false);
-  const [listHeight, setListHeight] = useState(365);
-
-  useEffect(() => {
-    if (workListRef.current) {
-      workListRef.current.style.height = `${listHeight}px`;
-    }
-  }, [listHeight]);
-
-  const handleShowMore = () => {
-    setShowMore(!showMore);
-    setListHeight(!showMore ? workListRef.current.scrollHeight : 365);
-  };
+export default function Experiences({ experience, tech }) {
   return (
     <ul className={css.expList}>
       <li className={css.expListItem}>
         <h3 className={css.expTitle}>Education</h3>
-        <ul className={css.detailExpList}>
+        <ul className={clsx(css.detailExpList, css.eduList)}>
           {experience.education.map((edu, index) => (
             <EducationItem key={index} {...edu} />
           ))}
@@ -31,23 +18,20 @@ export default function Experiences({ experience }) {
 
       <li className={css.expListItem}>
         <h3 className={css.expTitle}>Work Experience</h3>
-        <ul
-          className={css.detailExpList}
-          style={{ overflow: "hidden" }}
-          ref={workListRef}
-        >
+        <ul className={clsx(css.detailExpList, css.workList)}>
           {experience.workExperience.map((exp, index) => (
             <WorkExperienceItem key={index} {...exp} />
           ))}
         </ul>
+      </li>
 
-        {showMore ||
-          (listHeight <= 365 && (
-            <button onClick={handleShowMore}>
-              {showMore ? "Меньше" : "Больше"}
-            </button>
+      <li className={clsx(css.expListItem, css.techItem)}>
+        <h3 className={css.expTitle}>Tech Stack</h3>
+        <ul className={clsx(css.detailExpList, css.techList)}>
+          {tech.map((tech, index) => (
+            <TechStack key={index} {...tech} />
           ))}
-        {showMore && <button onClick={handleShowMore}>Меньше</button>}
+        </ul>
       </li>
     </ul>
   );

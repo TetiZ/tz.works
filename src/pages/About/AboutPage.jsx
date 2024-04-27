@@ -1,7 +1,9 @@
 import About from "../../components/About/About";
+import Contacts from "../../components/Contacts/Contacts";
 import Experiences from "../../components/Experiences/Experiences";
 
 import experience from "../../experience.json";
+import techStack from "../../techStack.json";
 import css from "./AboutPage.module.css";
 
 export default function AboutPage() {
@@ -27,7 +29,8 @@ export default function AboutPage() {
         gives me satisfaction, like when you find the last piece of a puzzle and
         put it in its place.
       </p>
-      <Experiences experience={experience} />
+      <Experiences experience={experience} tech={techStack} />
+      <Contacts />
     </div>
   );
 }

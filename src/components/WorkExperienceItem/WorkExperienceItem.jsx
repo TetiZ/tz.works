@@ -25,7 +25,7 @@ export default function WorkExperienceItem({
     <li className={css.expListItem}>
       <h3 className={css.title}>{position}</h3>
       <p className={css.company}>{company}</p>
-      <p>{dates}</p>
+      <p className={css.dates}>{dates}</p>
       {!loadMore && details?.length > 0 && (
         <p className={css.expLabel} onClick={showDetails}>
           Position Description <PiArrowBendRightDownThin />
