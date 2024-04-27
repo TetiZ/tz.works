@@ -1,5 +1,15 @@
 .title {
   margin-bottom: 44px;
-  font-size: 28px;
-  font-weight: 400;
+  font-size: 32px;
+}
+
+.contactListItem {
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.contactLink {
+  font-family: "Gilda Display", serif;
+  letter-spacing: 0.05em;
+  font-weight: 500;
 }

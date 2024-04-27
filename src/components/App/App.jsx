@@ -1,4 +1,4 @@
-import "./App.css";
+import css from "./App.module.css";
 import FaviconTheme from "../FaviconTheme/FaviconTheme";
 
 import { Routes, Route } from "react-router-dom";

@@ -1,5 +1,4 @@
 import About from "../../components/About/About";
-import Contacts from "../../components/Contacts/Contacts";
 import Experiences from "../../components/Experiences/Experiences";
 
 import experience from "../../experience.json";
@@ -30,7 +29,6 @@ export default function AboutPage() {
         put it in its place.
       </p>
       <Experiences experience={experience} tech={techStack} />
-      <Contacts />
     </div>
   );
 }
