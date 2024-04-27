@@ -43,10 +43,10 @@ export default function Contacts() {
           </a>
         </li>
         <li className={css.contactListItem}>
-          <a className={css.contactLink} onClick={copyEmail}>
+          <p className={css.contactLink} onClick={copyEmail}>
             {" "}
             {successCopy ? "Email copied" : email}
-          </a>
+          </p>
         </li>
       </ul>
     </div>
