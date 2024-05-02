@@ -10,7 +10,7 @@
 
 @media (prefers-color-scheme: dark) {
   .logo {
-    content: url(../../../public/img/navLogo/light.png);
+    content: url(/img/navLogo/light.png);
   }
 }
 

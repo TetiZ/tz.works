@@ -23,13 +23,6 @@
   color: rgba(0, 0, 0, 0.537);
 }
 
-@media (prefers-color-scheme: dark) {
-  p.expLabel,
-  p.expDetails {
-    color: rgba(255, 255, 255, 0.537);
-  }
-}
-
 .title {
   /* Box model */
   margin-bottom: 12px;
@@ -42,4 +35,11 @@
 
 .dates {
   margin-bottom: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  p.expLabel,
+  .expDetails {
+    color: rgba(255, 255, 255, 0.537);
+  }
 }
