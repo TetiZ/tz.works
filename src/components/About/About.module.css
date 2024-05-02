@@ -5,6 +5,12 @@
   animation: fadeInOut 2.1s ease-in-out infinite alternate;
 }
 
+@media (prefers-color-scheme: dark) {
+  p.intro {
+    color: rgba(255, 255, 255, 0.537);
+  }
+}
+
 @keyframes fadeInOut {
   0% {
     opacity: 0;

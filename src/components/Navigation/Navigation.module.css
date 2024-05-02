@@ -8,6 +8,12 @@
   flex-shrink: 0;
 }
 
+@media (prefers-color-scheme: dark) {
+  .logo {
+    content: url(../../../public/img/navLogo/light.png);
+  }
+}
+
 .navlink {
   font-family: "Gilda Display", serif;
   letter-spacing: 0.05em;

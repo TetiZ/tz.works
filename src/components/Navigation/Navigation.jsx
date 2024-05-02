@@ -1,17 +1,18 @@
 import { Link, NavLink, useLocation } from "react-router-dom";
-import darkLogoImg from "/img/dark-logo.png";
+import darkLogoImg from "../../../public/img/navLogo/dark.png";
 import css from "./Navigation.module.css";
 
 export default function Navigation() {
   const location = useLocation();
+
   return (
     <nav className={css.nav}>
       <Link to="/">
         <img
           className={css.logo}
           src={darkLogoImg}
-          width="48"
-          height="48"
+          width="52"
+          height="52"
           alt="page logo"
         />
       </Link>
